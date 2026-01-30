@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sewa VPS Murah & Terpercaya - Performa Maksimal untuk Bisnis Anda</title>
+  <meta name="description"
+    content="Artikel lengkap tentang VPS hosting. Dapatkan server virtual terbaik dengan performa tinggi, keamanan maksimal, dan harga terjangkau. Cocok untuk website, aplikasi, dan bisnis online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <style>:root {
+    /* Color Palette - VPS Tech Theme */
+    --primary-blue: #3b82f6;
+    --primary-blue-dark: #2563eb;
+    --primary-blue-light: #60a5fa;
+    --accent-purple: #8b5cf6;
+    --accent-cyan: #06b6d4;
+    --accent-pink: #ec4899;
+
+    --bg-dark: #0f172a;
+    --bg-dark-secondary: #1e293b;
+    --bg-dark-tertiary: #334155;
+
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-bg-strong: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.1);
+
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.8);
+    --text-muted: rgba(255, 255, 255, 0.6);
+
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
+    --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    position: relative;
+    color: var(--text-primary);
+    background: var(--bg-dark);
+    overflow-x: hidden;
+}
+
+/* Animated Background */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e293b 50%, #0f172a 100%);
+    z-index: -1;
+}
+
+.gradient-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.5;
+    animation: float 25s ease-in-out infinite;
+}
+
+.orb-1 {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.6) 0%, transparent 70%);
+    top: -15%;
+    left: -10%;
+    animation-delay: 0s;
+}
+
+.orb-2 {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.5) 0%, transparent 70%);
+    bottom: -10%;
+    right: -5%;
+    animation-delay: -10s;
+}
+
+.orb-3 {
+    width: 550px;
+    height: 550px;
+    background: radial-gradient(circle, rgba(6, 182, 212, 0.4) 0%, transparent 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-delay: -20s;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(40px, -40px) scale(1.1);
+    }
+
+    66% {
+        transform: translate(-30px, 30px) scale(0.9);
+    }
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(2px 2px at 20% 30%, white, transparent),
+        radial-gradient(2px 2px at 60% 70%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, white, transparent),
+        radial-gradient(1px 1px at 80% 10%, white, transparent),
+        radial-gradient(2px 2px at 90% 60%, white, transparent),
+        radial-gradient(1px 1px at 33% 80%, white, transparent),
+        radial-gradient(1px 1px at 70% 40%, white, transparent);
+    background-size: 200% 200%;
+    animation: twinkle 6s ease-in-out infinite;
+    opacity: 0.4;
+}
+
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-dark-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-blue);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-blue-light);
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 900px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.logo-container {
+    margin-bottom: 2.5rem;
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.logo-circle {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--glass-border);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.logo-circle::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-purple));
+    opacity: 0.5;
+    z-index: -1;
+    filter: blur(15px);
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: var(--shadow-lg);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: var(--shadow-glow);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo-icon {
+    width: 60px;
+    height: 60px;
+    color: white;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, var(--primary-blue-light) 50%, var(--accent-purple) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: fadeInUp 1s ease-out 0.3s both;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    font-weight: 400;
+    animation: fadeInUp 1s ease-out 0.4s both;
+    line-height: 1.8;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button Styles - Always Centered */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInUp 1s ease-out 0.5s both;
+    margin: 2rem 0;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 48px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 10px 40px rgba(59, 130, 246, 0.4);
+    border: 2px solid var(--primary-blue-light);
+}
+
+.cta-button.primary {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-purple) 100%);
+    box-shadow: 0 10px 40px rgba(59, 130, 246, 0.5);
+}
+
+.cta-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s ease;
+}
+
+.cta-button:hover::before {
+    left: 100%;
+}
+
+.cta-button:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(59, 130, 246, 0.6);
+}
+
+.cta-button:active {
+    transform: translateY(-2px) scale(0.98);
+}
+
+.button-text {
+    position: relative;
+    z-index: 1;
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover .button-icon {
+    transform: translateX(6px);
+}
+
+/* Section Styling */
+section {
+    padding: 6rem 0;
+    position: relative;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #ffffff 0%, var(--primary-blue-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -1px;
+}
+
+.title-decorator {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-blue), var(--accent-purple));
+    margin: 0 auto;
+    border-radius: 2px;
+    position: relative;
+}
+
+.title-decorator::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--accent-cyan);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px var(--accent-cyan);
+}
+
+.section-subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-top: 1.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Introduction Section */
+.intro-section {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-text {
+    font-size: 1.125rem;
+    line-height: 2;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Benefits Section */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+.benefit-card {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 2.5rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+.benefit-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-blue), var(--accent-purple), var(--accent-cyan));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.benefit-card:hover::before {
+    opacity: 1;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-blue);
+}
+
+.benefit-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1.5rem;
+    color: var(--primary-blue-light);
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+    color: var(--accent-cyan);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.benefit-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.benefit-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+/* Comparison Section */
+.comparison-section {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+}
+
+.comparison-table {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.comparison-header {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    background: rgba(59, 130, 246, 0.1);
+    border-bottom: 2px solid var(--glass-border);
+}
+
+.comparison-cell {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.comparison-cell.empty {
+    background: transparent;
+}
+
+.comparison-cell.highlight {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
+    position: relative;
+}
+
+.badge {
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-purple));
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.comparison-cell h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.comparison-row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    border-bottom: 1px solid var(--glass-border);
+    transition: background 0.3s ease;
+}
+
+.comparison-row:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.comparison-row:last-child {
+    border-bottom: none;
+}
+
+.comparison-cell.feature {
+    font-weight: 600;
+    font-size: 1.125rem;
+    justify-content: center;
+    color: var(--text-primary);
+}
+
+.check-icon {
+    width: 28px;
+    height: 28px;
+    color: #10b981;
+}
+
+.cross-icon {
+    width: 24px;
+    height: 24px;
+    color: #ef4444;
+}
+
+/* Use Cases Section */
+.usecases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.usecase-card {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 2.5rem;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+}
+
+.usecase-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.usecase-card:hover::before {
+    opacity: 1;
+}
+
+.usecase-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--primary-blue);
+    box-shadow: var(--shadow-lg);
+}
+
+.usecase-number {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.usecase-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.usecase-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, var(--primary-blue-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -1px;
+}
+
+.cta-description {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    line-height: 1.8;
+}
+
+.trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.badge-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.badge-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: var(--shadow-md);
+}
+
+.badge-icon {
+    width: 40px;
+    height: 40px;
+    color: var(--accent-cyan);
+}
+
+.badge-item span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+
+    .comparison-header,
+    .comparison-row {
+        grid-template-columns: 1fr 1.2fr 1.2fr;
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    section {
+        padding: 4rem 0;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .cta-title {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        padding: 18px 40px;
+        font-size: 1rem;
+    }
+
+    .logo-circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .comparison-header,
+    .comparison-row {
+        grid-template-columns: 0.8fr 1fr 1fr;
+        font-size: 0.9rem;
+    }
+
+    .comparison-cell {
+        padding: 1.5rem 1rem;
+    }
+
+    .comparison-cell.feature {
+        font-size: 1rem;
+    }
+
+    .trust-badges {
+        gap: 1.5rem;
+    }
+
+    .benefits-grid,
+    .usecases-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .cta-title {
+        font-size: 1.75rem;
+    }
+
+    .cta-button {
+        padding: 16px 32px;
+        font-size: 0.95rem;
+    }
+
+    .comparison-header,
+    .comparison-row {
+        font-size: 0.8rem;
+    }
+
+    .comparison-cell {
+        padding: 1rem 0.5rem;
+    }
+
+    .badge {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .trust-badges {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .badge-item {
+        width: 100%;
+    }
+
+    .intro-text {
+        text-align: left;
+        font-size: 1rem;
+    }
+}</style>
+
+<script>
+  // Enhanced VPS Landing Page Interactions
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Smooth scroll reveal animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe all animatable elements
+    const animatableElements = document.querySelectorAll(
+        '.benefit-card, .usecase-card, .comparison-table, .intro-content, .badge-item'
+    );
+
+    animatableElements.forEach((el, index) => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = `all 0.6s ease-out ${index * 0.1}s`;
+        observer.observe(el);
+    });
+
+    // Add ripple effect to all CTA buttons
+    const ctaButtons = document.querySelectorAll('.cta-button');
+
+    ctaButtons.forEach(button => {
+        button.addEventListener('click', function (e) {
+            const ripple = document.createElement('span');
+            const rect = this.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+            const x = e.clientX - rect.left - size / 2;
+            const y = e.clientY - rect.top - size / 2;
+
+            ripple.style.width = ripple.style.height = size + 'px';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            ripple.classList.add('ripple');
+
+            this.appendChild(ripple);
+
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+    });
+
+    // Parallax effect for gradient orbs on mouse move
+    let mouseX = 0;
+    let mouseY = 0;
+    let orbPositions = [{ x: 0, y: 0 }, { x: 0, y: 0 }, { x: 0, y: 0 }];
+
+    document.addEventListener('mousemove', function (e) {
+        mouseX = e.clientX / window.innerWidth;
+        mouseY = e.clientY / window.innerHeight;
+    });
+
+    function animateOrbs() {
+        const orbs = document.querySelectorAll('.gradient-orb');
+        orbs.forEach((orb, index) => {
+            const speed = (index + 1) * 15;
+            const targetX = mouseX * speed;
+            const targetY = mouseY * speed;
+
+            // Smooth lerp animation
+            orbPositions[index].x += (targetX - orbPositions[index].x) * 0.1;
+            orbPositions[index].y += (targetY - orbPositions[index].y) * 0.1;
+
+            orb.style.transform = `translate(${orbPositions[index].x}px, ${orbPositions[index].y}px)`;
+        });
+        requestAnimationFrame(animateOrbs);
+    }
+    animateOrbs();
+
+    // Logo circle interactive hover effect
+    const logoCircle = document.querySelector('.logo-circle');
+    if (logoCircle) {
+        logoCircle.addEventListener('mouseenter', function () {
+            this.style.transform = 'scale(1.15) rotate(10deg)';
+        });
+
+        logoCircle.addEventListener('mouseleave', function () {
+            this.style.transform = 'scale(1) rotate(0deg)';
+        });
+    }
+
+    // Comparison table row highlight
+    const comparisonRows = document.querySelectorAll('.comparison-row');
+    comparisonRows.forEach(row => {
+        row.addEventListener('mouseenter', function () {
+            const cells = this.querySelectorAll('.comparison-cell');
+            cells.forEach(cell => {
+                if (cell.classList.contains('highlight')) {
+                    cell.style.background = 'linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(139, 92, 246, 0.3))';
+                }
+            });
+        });
+
+        row.addEventListener('mouseleave', function () {
+            const cells = this.querySelectorAll('.comparison-cell');
+            cells.forEach(cell => {
+                if (cell.classList.contains('highlight')) {
+                    cell.style.background = 'linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2))';
+                }
+            });
+        });
+    });
+
+    // Benefit cards stagger animation on scroll
+    const benefitCards = document.querySelectorAll('.benefit-card');
+    benefitCards.forEach((card, index) => {
+        card.style.transitionDelay = `${index * 0.1}s`;
+    });
+
+    // Use case cards stagger animation
+    const usecaseCards = document.querySelectorAll('.usecase-card');
+    usecaseCards.forEach((card, index) => {
+        card.style.transitionDelay = `${index * 0.1}s`;
+    });
+
+    // Add floating animation to CTA section badges
+    const badgeItems = document.querySelectorAll('.badge-item');
+    badgeItems.forEach((badge, index) => {
+        badge.style.animation = `float 3s ease-in-out ${index * 0.3}s infinite`;
+    });
+
+    // Smooth scroll for anchor links (if any are added)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Add progressive number counting animation for use case numbers
+    const usecaseNumbers = document.querySelectorAll('.usecase-number');
+
+    const numberObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+                entry.target.classList.add('counted');
+                const finalNumber = entry.target.textContent;
+                let current = 0;
+                const increment = 1;
+                const duration = 1000;
+                const steps = duration / 50;
+
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= parseInt(finalNumber)) {
+                        entry.target.textContent = finalNumber;
+                        clearInterval(timer);
+                    }
+                }, duration / steps);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    usecaseNumbers.forEach(num => numberObserver.observe(num));
+
+    // Page load performance optimization
+    window.addEventListener('load', function () {
+        // Add loaded class to body for any CSS transitions
+        document.body.classList.add('loaded');
+
+        // Lazy load any future images
+        const images = document.querySelectorAll('img[data-src]');
+        images.forEach(img => {
+            img.src = img.dataset.src;
+            img.removeAttribute('data-src');
+        });
+    });
+
+    // Add custom cursor effect on buttons (optional enhancement)
+    ctaButtons.forEach(button => {
+        button.addEventListener('mouseenter', function () {
+            document.body.style.cursor = 'pointer';
+        });
+
+        button.addEventListener('mouseleave', function () {
+            document.body.style.cursor = 'default';
+        });
+    });
+
+    // Console welcome message
+    console.log('%c🚀 VPS Landing Page Loaded Successfully!',
+        'color: #3b82f6; font-size: 16px; font-weight: bold; padding: 10px;');
+    console.log('%cBuilt with modern web technologies',
+        'color: #8b5cf6; font-size: 12px;');
+});
+
+// Add CSS for ripple effect dynamically
+const style = document.createElement('style');
+style.textContent = `
+    .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        transform: scale(0);
+        animation: ripple-animation 0.6s ease-out;
+        pointer-events: none;
+    }
+    
+    @keyframes ripple-animation {
+        to {
+            transform: scale(2.5);
+            opacity: 0;
+        }
+    }
+    
+    .cta-button {
+        position: relative;
+        overflow: hidden;
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    body.loaded {
+        opacity: 1;
+    }
+
+    /* Smooth scroll behavior */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Selection styling */
+    ::selection {
+        background: rgba(59, 130, 246, 0.3);
+        color: white;
+    }
+
+    ::-moz-selection {
+        background: rgba(59, 130, 246, 0.3);
+        color: white;
+    }
+`;
+document.head.appendChild(style);
+
+</script>
+
+
+</head>
+
+<body>
+
+
+  <div class="background">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+    <div class="stars"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="logo-container">
+          <div class="logo-circle">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <h1 class="hero-title">Server Online Terbaik</h1>
+        <p class="hero-subtitle">Dapatkan hasil yang maksimal dengan website yang tepat,
+          aman, dan terpercaya pasti kuat.</p>
+        <div class="button-container">
+          <a href="https://wa.me/6287776888955" onclick="return gtag_report_conversion('https://wa.me/6287776888955');" class="cta-button primary" id="heroButton">
+            <span class="button-text">MASUK SEKARANG</span>
+            <svg class="button-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction Section -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Apa itu VPS Hosting?</h2>
+        <div class="title-decorator"></div>
+      </div>
+      <div class="intro-content">
+        <p class="intro-text">VPS (Virtual Private Server) adalah solusi hosting yang memberikan Anda kontrol penuh atas
+          server virtual yang terisolasi. Berbeda dengan shared hosting, VPS memberikan resources dedicated seperti CPU,
+          RAM, dan storage yang tidak dibagi dengan pengguna lain.</p>
+        <p class="intro-text">Dengan teknologi virtualisasi terkini, VPS hosting menawarkan fleksibilitas yang sama
+          dengan dedicated server namun dengan harga yang jauh lebih terjangkau. Ini adalah pilihan sempurna untuk
+          bisnis yang sedang berkembang dan membutuhkan performa yang stabil serta kontrol yang lebih besar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Keunggulan VPS Hosting</h2>
+        <div class="title-decorator"></div>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Performa Tinggi</h3>
+          <p class="benefit-description">Resources dedicated yang tidak terpengaruh oleh pengguna lain. Website Anda
+            akan selalu cepat dan responsif.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Keamanan Maksimal</h3>
+          <p class="benefit-description">Lingkungan terisolasi dengan firewall dedicated dan akses root penuh untuk
+            konfigurasi keamanan.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z"
+                stroke="currentColor" stroke-width="2" />
+              <path d="M12 10V14M10 12H14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Skalabilitas Mudah</h3>
+          <p class="benefit-description">Upgrade resources kapan saja sesuai pertumbuhan bisnis tanpa downtime atau
+            migrasi kompleks.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                stroke="currentColor" stroke-width="2" />
+              <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Uptime 99.9%</h3>
+          <p class="benefit-description">Infrastruktur enterprise-grade dengan monitoring 24/7 memastikan website Anda
+            selalu online.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2V6M12 18V22M4.93 4.93L7.76 7.76M16.24 16.24L19.07 19.07M2 12H6M18 12H22M4.93 19.07L7.76 16.24M16.24 7.76L19.07 4.93"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Kontrol Penuh</h3>
+          <p class="benefit-description">Akses root dan kemampuan install software apapun sesuai kebutuhan aplikasi
+            Anda.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z"
+                fill="currentColor" />
+            </svg>
+          </div>
+          <h3 class="benefit-title">Support 24/7</h3>
+          <p class="benefit-description">Tim support profesional siap membantu Anda kapan saja melalui berbagai channel
+            komunikasi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Section -->
+  <section class="comparison-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">VPS vs Shared Hosting</h2>
+        <div class="title-decorator"></div>
+        <p class="section-subtitle">Mengapa VPS adalah pilihan yang lebih baik untuk bisnis berkembang?</p>
+      </div>
+      <div class="comparison-table">
+        <div class="comparison-header">
+          <div class="comparison-cell empty"></div>
+          <div class="comparison-cell highlight">
+            <span class="badge">Recommended</span>
+            <h3>VPS Hosting</h3>
+          </div>
+          <div class="comparison-cell">
+            <h3>Shared Hosting</h3>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-cell feature">Performa</div>
+          <div class="comparison-cell highlight">
+            <svg class="check-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Tinggi & Konsisten</span>
+          </div>
+          <div class="comparison-cell">
+            <svg class="cross-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <span>Terbatas & Bervariasi</span>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-cell feature">Resources</div>
+          <div class="comparison-cell highlight">
+            <svg class="check-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Dedicated</span>
+          </div>
+          <div class="comparison-cell">
+            <svg class="cross-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <span>Shared</span>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-cell feature">Kontrol Server</div>
+          <div class="comparison-cell highlight">
+            <svg class="check-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Root Access</span>
+          </div>
+          <div class="comparison-cell">
+            <svg class="cross-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <span>Terbatas</span>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-cell feature">Keamanan</div>
+          <div class="comparison-cell highlight">
+            <svg class="check-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Tinggi & Terisolasi</span>
+          </div>
+          <div class="comparison-cell">
+            <svg class="cross-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <span>Rentan</span>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-cell feature">Skalabilitas</div>
+          <div class="comparison-cell highlight">
+            <svg class="check-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Mudah & Fleksibel</span>
+          </div>
+          <div class="comparison-cell">
+            <svg class="cross-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <span>Sulit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases Section -->
+  <section class="usecases-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Siapa yang Membutuhkan VPS?</h2>
+        <div class="title-decorator"></div>
+      </div>
+      <div class="usecases-grid">
+        <div class="usecase-card">
+          <div class="usecase-number">01</div>
+          <h3 class="usecase-title">Bisnis E-Commerce</h3>
+          <p class="usecase-description">Toko online dengan traffic tinggi membutuhkan performa stabil dan keamanan
+            maksimal untuk transaksi pelanggan.</p>
+        </div>
+
+        <div class="usecase-card">
+          <div class="usecase-number">02</div>
+          <h3 class="usecase-title">Website Perusahaan</h3>
+          <p class="usecase-description">Platform corporate yang profesional memerlukan uptime tinggi dan loading speed
+            cepat untuk kredibilitas bisnis.</p>
+        </div>
+
+        <div class="usecase-card">
+          <div class="usecase-number">03</div>
+          <h3 class="usecase-title">Aplikasi Web</h3>
+          <p class="usecase-description">SaaS dan web applications membutuhkan kontrol penuh dan resources dedicated
+            untuk performa optimal.</p>
+        </div>
+
+        <div class="usecase-card">
+          <div class="usecase-number">04</div>
+          <h3 class="usecase-title">Media & Portal Berita</h3>
+          <p class="usecase-description">Website dengan content-heavy dan traffic tinggi memerlukan bandwidth besar dan
+            load balancing yang baik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Siap Meningkatkan Performa Website Anda?</h2>
+        <p class="cta-description">Dapatkan VPS hosting terbaik dengan harga terjangkau. Hubungi kami sekarang untuk
+          konsultasi gratis dan penawaran spesial!</p>
+        <div class="button-container">
+          <a href="https://wa.me/6287776888955" class="cta-button primary" id="ctaButton">
+            <span class="button-text">Hubungi Kami Sekarang</span>
+            <svg class="button-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="trust-badges">
+          <div class="badge-item">
+            <svg class="badge-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                stroke="currentColor" stroke-width="2" />
+              <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <span>Akses 24/7</span>
+          </div>
+          <div class="badge-item">
+            <svg class="badge-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>Aman & Terpercaya</span>
+          </div>
+          <div class="badge-item">
+            <svg class="badge-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span>Performa Tinggi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
